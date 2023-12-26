@@ -8,6 +8,7 @@
     box-sizing: border-box;
     width: 326px;
     height: 37px;
+    cursor: text;
  }
  .rectangle1 {
     position: absolute;
