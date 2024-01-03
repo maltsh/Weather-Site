@@ -9,7 +9,12 @@
     width: 326px;
     height: 37px;
     cursor: text;
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    z-index: 2; /* Ensure the input is above other elements */
  }
+ .rectangle input[type="text"] {
+	font-weight:bold;
+	}
  .rectangle1 {
     position: absolute;
     width: 100%;
@@ -69,6 +74,7 @@
     right: 0.67%;
     left: 0.67%;
     height: 37px;
+    z-index: 1; /* Ensure frame1 is below the .rectangle */
  }
  .rectangle3 {
     position: absolute;
