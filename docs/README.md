@@ -28,7 +28,8 @@ CSS
 
 ## Credits
 Weather data provided by Weather API
-License
+
+## License
 This project is licensed under the MIT License.
 
 ## Contributing 🤝
